@@ -16,10 +16,10 @@ case $1 in
         source ./b.sh ;;
     dot)
         echo 'using dot...'
-        . ./b.sh
+        . ./b.sh ;;
     *)
         echo 'using fork by default ...'
-        ./b.sh
+        ./b.sh ;;
 esac
 
 echo "PID of a.sh afterwards : $$"
