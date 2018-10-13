@@ -1,4 +1,5 @@
 #!/bin/bash
+# a.sh
 A=B
 echo "PID for a.sh before exec/source/fork: $$"
 
