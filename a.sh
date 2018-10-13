@@ -14,6 +14,9 @@ case $1 in
     source)
         echo 'using source ...'
         source ./b.sh ;;
+    dot)
+        echo 'using dot...'
+        . ./b.sh
     *)
         echo 'using fork by default ...'
         ./b.sh
